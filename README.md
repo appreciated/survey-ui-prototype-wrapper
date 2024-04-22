@@ -2,8 +2,7 @@
 
 # Web application to embed UI-Prototypes into surveys
 
-This project delivers a minimalist web application containerized using Docker. It provides a partly configurable iframe url, title, description via URL query parameters.
-This makes placing a ui prototype into a survey simple while still giving guidance to the participant. 
+This web application simplifies the embedding of UI prototypes into surveys. Easily adjust the iframe URL, title, and description using URL query parameters. Designed for seamless integration of UI prototypes, this tool provides clear guidance to participants and requires no modifications to the prototypes.
 
 # Screenshot
 ![grafik](https://github.com/appreciated/survey-ui-prototype-wrapper/assets/1729845/9aded587-68a8-41b4-99f6-09ce47a45363)
