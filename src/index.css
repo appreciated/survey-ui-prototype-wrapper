@@ -31,7 +31,7 @@ code {
 
 .footer-bar {
     box-shadow: 0 -20px 25px -5px rgba(0, 0, 0, .1), 0 8px 10px -6px rgba(0, 0, 0, .1);
-    padding: 0 20px;
+    padding: 10px 20px;
     align-items: center;
     justify-content: space-between;
     display: flex;
@@ -42,4 +42,13 @@ code {
 .icon {
     width: 20px;
     padding: 10px;
+}
+
+button {
+    padding: .75em;
+    border: none;
+    border-radius: 10px;
+    background: #6480a3;
+    font-size: 1em;
+    color: white;
 }
