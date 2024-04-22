@@ -2,7 +2,8 @@
 
 # Minimalist Web Application with Iframe Path Configuration
 
-This project delivers a minimalist web application containerized using Docker. It uses React for the UI and features an configurable iframe with title and description whose content path can be specified via URL query parameters. The hostname remains constant due to security reasons.
+This project delivers a minimalist web application containerized using Docker. It provides a partly configurable iframe url, title, description via URL query parameters.
+This makes placing a ui prototype into a survey simple while still giving guidance to the participant. 
 
 # Screenshot
 ![grafik](https://github.com/appreciated/survey-ui-prototype-wrapper/assets/1729845/3ba4f228-fdd1-49a9-a003-0baf94efd149)
