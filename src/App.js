@@ -6,7 +6,7 @@ import TestPage from './TestPage';
 
 const App = () => {
     return (
-        <div>
+        <div style={{width: '100%', height: '100%'}}>
             <Router>
                 <Routes>
                     <Route path="/test" element={ <TestPage/>}>
