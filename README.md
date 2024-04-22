@@ -69,7 +69,8 @@ Start the container:
 ```
 
 The application will then be available at http://localhost:3000.
-Security Measures
+
+## Security Measures
 
 The application restricts hostname modifications to prevent security vulnerabilities, such as cross-site scripting (XSS) or unauthorized data access. Always validate and sanitize paths derived from user inputs.
 Support and Contributions
