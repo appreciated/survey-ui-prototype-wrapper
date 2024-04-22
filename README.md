@@ -1,6 +1,6 @@
 [![Build and Publish Docker Image](https://github.com/appreciated/survey-ui-prototype-wrapper/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/appreciated/survey-ui-prototype-wrapper/actions/workflows/docker-publish.yml)
 
-# Web Application for Embedding UI Prototypes in Surveys
+# Embed your UI prototypes seamlessly in Surveys
 
 This web application streamlines the process of embedding UI prototypes into surveys. You can adjust the iframe URL, title, and description easily through URL query parameters. This tool is engineered for seamless integration of UI prototypes and provides straightforward guidance to participants without needing to modify the UI prototypes.
 
