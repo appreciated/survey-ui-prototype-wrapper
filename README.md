@@ -29,14 +29,14 @@ cd my-app
 npm install
 ```
 
-Start the application:
+## Start the application:
 
 ```bash
 npm start
 ```
 The application will be accessible at http://localhost:3000.
 
-Using the Application
+## Using the Application
 
 To dynamically specify the iframe's content path, use the path query parameter along with title and instructions. Format the URL as follows:
 
