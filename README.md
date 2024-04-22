@@ -20,13 +20,13 @@ This makes placing a ui prototype into a survey simple while still giving guidan
 To dynamically specify the iframe's content path, use the path query parameter along with title and instructions. Format the URL as follows:
 Example:
 ```bash
-[http://localhost:3000/?title=Testing+Environment&instructions=Please+review+the+document&path=/test](http://localhost:3000/?title=Some+Custom+Title&instructions=Please+test+this+App!&path=/test)
+http://localhost:3000/?title=Some+Custom+Title&instructions=Please+test+this+App!&path=/test
 ```
 
 This URL sets:
-- title as "Testing Environment"
-- instructions as "Please review the document"
-- path as "/documents/test-document", which loads content from the specified path on the constant hostname.
+- title as "Some Custom Title"
+- instructions as "Please test this App!"
+- path as "/test", which loads content from the specified path on the constant hostname.
 
 ## Prerequisites
 
