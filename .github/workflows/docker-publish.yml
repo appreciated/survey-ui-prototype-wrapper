@@ -32,9 +32,6 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: ghcr.io/${{ github.repository_owner }}/survey-ui-prototype-wrapper:${{ github.sha }}
-          #build-args: |
-          #  ARG1_NAME=arg1_value
-          #  ARG2_NAME=arg2_value
 
       - name: Image digest
         run: echo ${{ steps.build_and_push.outputs.digest }}
