@@ -48,7 +48,7 @@ http://localhost:3000?title=Your+Title&instructions=Your+Instructions&path=/your
 
 Example:
 ```bash
-http://localhost:3000?title=Testing+Environment&instructions=Please+review+the+document&path=/documents/test-document
+http://localhost:3000/?title=Testing+Environment&instructions=Please+review+the+document&path=/test
 ```
 
 This URL sets:
