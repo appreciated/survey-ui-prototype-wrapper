@@ -23,13 +23,13 @@ To run this project locally, you will need:
 git clone https://github.com/<Your_GitHub_Username>/my-app.git
 cd my-app
 ```
-    Install dependencies:
+2. Install dependencies:
 
 ```bash
 npm install
 ```
 
-## Start the application:
+3. Start the application:
 
 ```bash
 npm start
