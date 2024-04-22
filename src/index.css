@@ -51,4 +51,10 @@ button {
     background: #6480a3;
     font-size: 1em;
     color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #95aac5;
 }
