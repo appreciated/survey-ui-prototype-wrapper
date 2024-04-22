@@ -31,7 +31,9 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/survey-ui-prototype-wrapper:${{ github.sha }}
+          tags: |
+            ghcr.io/${{ github.repository_owner }}/survey-ui-prototype-wrapper:${{ github.sha }}
+            ghcr.io/${{ github.repository_owner }}/survey-ui-prototype-wrapper:latest
 
       - name: Image digest
         run: echo ${{ steps.build_and_push.outputs.digest }}
