@@ -6,8 +6,7 @@ This project delivers a minimalist web application containerized using Docker. I
 This makes placing a ui prototype into a survey simple while still giving guidance to the participant. 
 
 # Screenshot
-![grafik](https://github.com/appreciated/survey-ui-prototype-wrapper/assets/1729845/3ba4f228-fdd1-49a9-a003-0baf94efd149)
-
+![grafik](https://github.com/appreciated/survey-ui-prototype-wrapper/assets/1729845/9aded587-68a8-41b4-99f6-09ce47a45363)
 
 ## Features
 
