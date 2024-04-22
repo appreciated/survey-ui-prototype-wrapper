@@ -1,3 +1,5 @@
+[![Build and Publish Docker Image](https://github.com/appreciated/survey-ui-prototype-wrapper/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/appreciated/survey-ui-prototype-wrapper/actions/workflows/docker-publish.yml)
+
 # Minimalist Web Application with Iframe Path Configuration
 
 This project delivers a minimalist web application containerized using Docker. It uses React for the UI and features an iframe whose content path can be specified via URL query parameters, while the hostname remains constant. This setup is ideal for testing and demonstration purposes, ensuring the application environment is controlled and secure.
