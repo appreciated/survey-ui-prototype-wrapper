@@ -1,22 +1,22 @@
 [![Build and Publish Docker Image](https://github.com/appreciated/survey-ui-prototype-wrapper/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/appreciated/survey-ui-prototype-wrapper/actions/workflows/docker-publish.yml)
 
-# Web application to embed UI-Prototypes into surveys
+# Web Application for Embedding UI Prototypes in Surveys
 
-This web application simplifies the embedding of UI prototypes into surveys. Easily adjust the iframe URL, title, and description using URL query parameters. Designed for seamless integration of UI prototypes, this tool provides clear guidance to participants and requires no modifications to the prototypes.
+This web application streamlines the process of embedding UI prototypes into surveys. You can adjust the iframe URL, title, and description easily through URL query parameters. This tool is engineered for seamless integration of UI prototypes and provides straightforward guidance to participants without needing to modify the UI prototypes.
 
 # Screenshot
 ![grafik](https://github.com/appreciated/survey-ui-prototype-wrapper/assets/1729845/9aded587-68a8-41b4-99f6-09ce47a45363)
 
 ## Features
 
-- **Dynamic Content**: Titles, instructions, and the path of the iframe content can be controlled via URL query parameters.
-- **Iframe Integration**: Incorporates an iframe that loads content from a predefined hostname based on the specified path.
-- **Responsive Design**: Optimized for various screen sizes, ensuring usability on both desktop and mobile devices.
-- **Security**: Ensures that the hostname cannot be manipulated via external inputs, maintaining a secure application environment.
+- **Dynamic Content**: Control titles, instructions, and the iframe's content path directly through URL query parameters.
+- **Iframe Integration**: Loads content in an iframe from a predefined hostname, based on the specified path.
+- **Responsive Design**: The design is optimized for different screen sizes, enhancing usability on both desktop and mobile devices.
+- **Security**: Prevents the manipulation of the hostname through external inputs to maintain a secure application environment.
 
 ## Using the Application
 
-To dynamically specify the iframe's content path, use the path query parameter along with title and instructions. Format the URL as follows:
+Dynamically set the iframe's content path, title, and instructions by formatting the URL as shown below:
 Example:
 ```bash
 http://localhost:3000/?title=Some+Custom+Title&instructions=Please+test+this+App!&path=/test
@@ -73,7 +73,7 @@ The application will then be available at http://localhost:3000.
 
 ## Security Measures
 
-The application restricts hostname modifications to prevent security vulnerabilities, such as cross-site scripting (XSS) or unauthorized data access. Always validate and sanitize paths derived from user inputs.
-Support and Contributions
+The application includes safeguards against hostname manipulation to prevent issues like cross-site scripting (XSS) and unauthorized data access.
 
-For support, feature requests, or bug reporting, please use the Issues section of this GitHub repository. Contributions are welcomed; please open a pull request for improvements or new features.
+## Support and Contributions
+For support, to request features, or to report bugs, please utilize the Issues section of this GitHub repository. Contributions are welcome; to suggest improvements or introduce new features, please submit a pull request.
