@@ -15,6 +15,24 @@ This project delivers a minimalist web application containerized using Docker. I
 - **Responsive Design**: Optimized for various screen sizes, ensuring usability on both desktop and mobile devices.
 - **Security**: Ensures that the hostname cannot be manipulated via external inputs, maintaining a secure application environment.
 
+## Using the Application
+
+To dynamically specify the iframe's content path, use the path query parameter along with title and instructions. Format the URL as follows:
+
+```bash
+http://localhost:3000?title=Your+Title&instructions=Your+Instructions&path=/your-path
+```
+
+Example:
+```bash
+http://localhost:3000/?title=Testing+Environment&instructions=Please+review+the+document&path=/test
+```
+
+This URL sets:
+- title as "Testing Environment"
+- instructions as "Please review the document"
+- path as "/documents/test-document", which loads content from the specified path on the constant hostname.
+
 ## Prerequisites
 
 To run this project locally, you will need:
@@ -42,25 +60,8 @@ npm start
 ```
 The application will be accessible at http://localhost:3000.
 
-## Using the Application
 
-To dynamically specify the iframe's content path, use the path query parameter along with title and instructions. Format the URL as follows:
-
-```bash
-http://localhost:3000?title=Your+Title&instructions=Your+Instructions&path=/your-path
-```
-
-Example:
-```bash
-http://localhost:3000/?title=Testing+Environment&instructions=Please+review+the+document&path=/test
-```
-
-This URL sets:
-- title as "Testing Environment"
-- instructions as "Please review the document"
-- path as "/documents/test-document", which loads content from the specified path on the constant hostname.
-
-Docker Deployment
+## Docker Deployment
 
     Build the Docker image:
 
