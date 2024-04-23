@@ -58,20 +58,7 @@ The application will be accessible at http://localhost:3000.
 
 
 ## Docker Deployment
-
-    Build the Docker image:
-
-```bash
-docker build -t my-app .
-```
-
-Start the container:
-
-```bash
- docker run -p 3000:3000 my-app
-```
-
-The application will then be available at http://localhost:3000.
+Use the [docker-compose-production.yml](https://github.com/appreciated/survey-ui-prototype-wrapper/blob/main/docker-compose-production.yml)
 
 ## Security Measures
 
