@@ -4,8 +4,10 @@
 
 This web application streamlines the process of embedding UI prototypes into surveys. You can adjust the iframe URL, title, and description easily through URL query parameters. This tool is engineered for seamless integration of UI prototypes and provides straightforward guidance to participants without needing to modify the UI prototypes.
 
-# Screenshot
-![grafik](https://github.com/appreciated/survey-ui-prototype-wrapper/assets/1729845/9aded587-68a8-41b4-99f6-09ce47a45363)
+# Screenshots
+![grafik](https://github.com/appreciated/survey-ui-prototype-wrapper/assets/1729845/6599e7ed-672c-4fa2-b6ac-be7955af593e)
+
+![grafik](https://github.com/appreciated/survey-ui-prototype-wrapper/assets/1729845/35e9c515-ddd2-4bfd-9ef3-527cbd739308)
 
 ## Features
 
