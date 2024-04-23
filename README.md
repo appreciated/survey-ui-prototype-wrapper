@@ -25,8 +25,8 @@ http://localhost:3000/?title=Some+Custom+Title&instructions=Please+test+this+App
 ```
 
 This URL sets:
-- title as "Some Custom Title"
-- instructions as "Please test this App!"
+- ~title as "Some Custom Title"~
+- ~instructions as "Please test this App!"~
 - path as "/test", which loads content from the specified path on the constant hostname.
 
 ## Prerequisites
