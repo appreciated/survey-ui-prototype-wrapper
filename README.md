@@ -58,7 +58,7 @@ The application will be accessible at http://localhost:3000.
 
 
 ## Docker Deployment
-Use the [docker-compose-production.yml](https://github.com/appreciated/survey-ui-prototype-wrapper/blob/main/docker-compose-production.yml)
+Use the [docker-compose-production.yml](https://github.com/appreciated/survey-ui-prototype-wrapper/blob/main/docker-compose-production.yml) to deploy the automatically built Docker images.
 
 ## Security Measures
 
